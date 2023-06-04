@@ -14,9 +14,9 @@
 if(!isServer)exitWith{};
 params ["_clientOwner"];
 
-_temp = server getVariable ["jna_playersInArsenal",[]];
+_temp = serverNamespace getVariable ["jna_playersInArsenal",[]];
 _temp pushBackUnique _clientOwner;
-server setVariable ["jna_playersInArsenal",_temp,true];
+serverNamespace setVariable ["jna_playersInArsenal",_temp,true];
 
 diag_log ["_open arsenal for: clientOwner ",_clientOwner];
 ["Open",[jna_dataList]] remoteExecCall ["jn_fnc_arsenal", _clientOwner];

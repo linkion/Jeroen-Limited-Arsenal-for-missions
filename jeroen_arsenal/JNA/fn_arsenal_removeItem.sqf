@@ -23,7 +23,7 @@ if(typeName (_this select 0) isEqualTo "SCALAR")then{//[_index, _item] or [_inde
 			if(_index == IDC_RSCDISPLAYARSENAL_TAB_CARGOMAG)then{_index = IDC_RSCDISPLAYARSENAL_TAB_CARGOMAGALL};
 
 			//update
-			private _playersInArsenal = +(server getVariable ["jna_playersInArsenal", []]);
+			private _playersInArsenal = +(serverNamespace getVariable ["jna_playersInArsenal", []]);
 			if (!(0 in _playersInArsenal)) then {_playersInArsenal pushBackUnique 2;};
 			["UpdateItemRemove",[_index, _item, _amount,true]] remoteExecCall ["jn_fnc_arsenal",_playersInArsenal];
 		};

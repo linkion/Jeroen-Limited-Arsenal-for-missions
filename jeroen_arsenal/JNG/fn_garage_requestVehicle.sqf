@@ -23,7 +23,7 @@ with missionNamespace do{
 					jng_vehicleList set [_index,_array];
 
 					//update all clients that are looking in the garage
-					["updateVehicleSingleData",[_name,_index,_namePlayer,nil]] remoteExecCall ["jn_fnc_garage",server getVariable ["jng_playersInGarage",[]]];
+					["updateVehicleSingleData",[_name,_index,_namePlayer,nil]] remoteExecCall ["jn_fnc_garage",serverNamespace getVariable ["jng_playersInGarage",[]]];
 				};
 			};
 

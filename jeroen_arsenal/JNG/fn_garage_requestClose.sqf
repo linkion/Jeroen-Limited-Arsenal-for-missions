@@ -14,6 +14,6 @@
 if(!isServer)exitWith{};
 params ["_clientOwner"];
 
-_temp = server getVariable ["jng_playersInArsenal",[]];
+_temp = serverNamespace getVariable ["jng_playersInArsenal",[]];
 _temp= _temp - [_clientOwner];
-server setVariable ["jng_playersInArsenal",_temp];
+serverNamespace setVariable ["jng_playersInArsenal",_temp];
