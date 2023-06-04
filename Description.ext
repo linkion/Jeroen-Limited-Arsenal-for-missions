@@ -1,0 +1,7 @@
+#include "jeroen_arsenal\script_component.hpp"
+
+
+allowFunctionsLog=1;
+allowFunctionsRecompile = 1;
+
+#include "jeroen_arsenal\CfgFunctions.hpp"
