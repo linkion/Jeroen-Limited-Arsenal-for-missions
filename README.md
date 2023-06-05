@@ -38,3 +38,11 @@ So far haven't gotten `JNL` to work since it requires some preconfiguration for 
 Haven't test `JNG`
 
 `JND` is a debug
+
+## Credits
+
+Thank you to [Jeroen Notenbomer](https://github.com/Jeroen-Notenbomer) for bringing the limited arsenal to existance
+
+Thank you to the [Arma Antistasi Community](https://github.com/official-antistasi-community) for keeping the antistasi gamemode alive and making improvements and fixing bugs
+
+Source for [jeroen_arsenal](https://github.com/official-antistasi-community/A3-Antistasi/tree/master/A3A/addons/jeroen_arsenal)
