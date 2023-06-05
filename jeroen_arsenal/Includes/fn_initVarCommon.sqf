@@ -6,12 +6,12 @@
 scriptName "initVarCommon.sqf";
 #include "..\script_component.hpp"
 FIX_LINE_NUMBERS()
-Info("initVarCommon started");
+//Info("initVarCommon started");
 
 ////////////////////////////////////
 // INITIAL SETTING AND VARIABLES ///
 ////////////////////////////////////
-Info("Setting initial variables");
+//Info("Setting initial variables");
 debug = false;
 //A3A_customHintEnable = false; // Disables custom hints for boot duration. Is set to true in initClient.
 
@@ -31,7 +31,7 @@ posHQ = getMarkerPos respawnTeamPlayer;
 ////////////////////////////////////////
 //     DECLARING PATCOM VARIABLES    ///
 ////////////////////////////////////////
-Info("Initialising PATCOM Variables");
+//Info("Initialising PATCOM Variables");
 
 PATCOM_DEBUG = false; // Enable PATCOM specific debug.
 PATCOM_VISUAL_RANGE = 400; // How far before PATCOM can start to detect enemies.
@@ -44,7 +44,7 @@ PATCOM_AI_STATIC_ARM = 120; // How long AI stay on static weapons after they arm
 ////////////////////////////////////////
 //     DECLARING ITEM CATEGORIES     ///
 ////////////////////////////////////////
-Info("Declaring item categories");
+//Info("Declaring item categories");
 
 weaponCategories = ["Rifles", "Handguns", "MachineGuns", "MissileLaunchers", "Mortars", "RocketLaunchers", "Shotguns", "SMGs", "SniperRifles", "UsedLaunchers"];
 itemCategories = ["Gadgets", "Bipods", "MuzzleAttachments", "PointerAttachments", "Optics", "Binoculars", "Compasses", "FirstAidKits", "GPS", "LaserDesignators",
@@ -78,7 +78,7 @@ allCategories = allCategoriesExceptSpecial + specialCategories;
 ////////////////////////////////////
 //     BEGIN MOD DETECTION       ///
 ////////////////////////////////////
-Info("Starting mod detection");
+//Info("Starting mod detection");
 
 // Load the climate here for the moment, because we need it early and globally
 private _worldName = toLower worldName;
@@ -116,4 +116,4 @@ A3A_hasIFA = false;			// this one is everywhere, just mark it false and remove l
 //These are handled by a script in the Templates folder to keep integrators away from critical code.
 //call A3A_fnc_detector;
 
-Info("initVarCommon completed");
+//Info("initVarCommon completed");

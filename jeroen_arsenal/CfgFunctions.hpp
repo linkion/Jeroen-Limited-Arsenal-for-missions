@@ -80,5 +80,12 @@ class CfgFunctions {
 			class initVarCommon {};
 			class basicBackpack {};
 		}
+		class time { 
+			file = QPATHTOFOLDER(Includes\functions\Time);
+            class dateToTimeString {};
+            class secondsToTimeSpan {};
+            class systemTime_format_S {};
+            class timeSpan_format {};
+		}
 	}
 };
