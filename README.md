@@ -21,6 +21,10 @@ or from 3den by perhaps writing into the 3den attribute `Object: Init`
 
 `jna_dataList = [...];`
 
+Example:
+
+![objectInitScreenshot](https://github.com/linkion/Jeroen-Limited-Arsenal-for-missions/assets/42103411/9ca8d0ed-276e-480d-9307-3b31069ecf6c)
+
 ## 
 
 So far haven't gotten `JNL` to work since it requires some preconfiguration for individual vehicles
