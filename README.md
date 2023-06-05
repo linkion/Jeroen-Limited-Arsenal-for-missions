@@ -31,6 +31,10 @@ Example:
 
 ![objectInitScreenshot](https://github.com/linkion/Jeroen-Limited-Arsenal-for-missions/assets/42103411/9ca8d0ed-276e-480d-9307-3b31069ecf6c)
 
+## Limitations
+
+* You can't make another limited arsenal in the world due to possible conflicts
+
 ## 
 
 So far haven't gotten `JNL` to work since it requires some preconfiguration for individual vehicles
