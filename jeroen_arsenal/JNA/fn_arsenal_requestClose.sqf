@@ -16,4 +16,4 @@ params ["_clientOwner"];
 
 _temp = serverNamespace getVariable ["jna_playersInArsenal",[]];
 _temp = _temp - [_clientOwner];
-serverNamespace setVariable ["jna_playersInArsenal",_temp,true];
+serverNamespace setVariable ["jna_playersInArsenal",_temp];
