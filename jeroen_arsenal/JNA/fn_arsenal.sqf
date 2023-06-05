@@ -378,7 +378,7 @@ switch _mode do {
 		_ctrlButtonRandom = _display displayctrl IDC_RSCDISPLAYARSENAL_CONTROLSBAR_BUTTONRANDOM;
 		_ctrlButtonRandom ctrlRemoveAllEventHandlers "buttonclick";
 		_ctrlButtonRandom ctrladdeventhandler ["buttonclick",{["buttonInvToJNA",[ctrlparent (_this select 0)]] call jn_fnc_arsenal;}];
-		_ctrlButtonRandom ctrlSetText "To crate";
+		_ctrlButtonRandom ctrlSetText "From crate";
 		_ctrlButtonRandom ctrlSetTooltip "Move items from crate inventory to arsenal";
 
 		_ctrlArrowLeft = _display displayctrl IDC_RSCDISPLAYARSENAL_ARROWLEFT;
