@@ -3,9 +3,9 @@
 ## Installation
 
 Add these files/folders to the root of the mission:
-* `/jeroen_arsenal/*`
-* `/Description.ext`
-* `/init.sqf`
+* `jeroen_arsenal/*`
+* `Description.ext`
+* `init.sqf`
 ## How to use
 For the crate/object you want to use, in the 3den attribute `Object: Init` write: 
 
