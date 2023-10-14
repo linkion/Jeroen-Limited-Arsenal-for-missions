@@ -6,6 +6,11 @@ Add these files/folders to the root of the mission:
 * `jeroen_arsenal/`
 * `Description.ext`
 * `init.sqf`
+
+Example:
+
+![image](https://github.com/linkion/Jeroen-Limited-Arsenal-for-missions/assets/42103411/0d3414e7-3ae9-4f0b-9c89-bacde083fa25)
+
 ## How to use
 For the crate/object you want to use, in the 3den attribute `Object: Init` write: 
 
