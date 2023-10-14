@@ -3,7 +3,7 @@
 ## Installation
 
 Add these files/folders to the root of the mission:
-* `jeroen_arsenal/*`
+* `jeroen_arsenal/`
 * `Description.ext`
 * `init.sqf`
 ## How to use
