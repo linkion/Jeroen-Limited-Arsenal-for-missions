@@ -1,5 +1,5 @@
 # TOTALLY DOESN'T WORK WITH MORE THAN ONE PLAYER
-
+As of 10/14/2023 when I tried testing it with two clients running at the same time on my machine.
 # Jeroen-Limited-Arsenal-for-missions
 
 ## Installation
